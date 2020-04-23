@@ -1,0 +1,99 @@
+---
+- modal: Modal-1
+  id: Modal-1
+  label: Modal-label-1
+  name: OpenCerts
+  summary: A digital certificate framework to issue and verify education credentials on the blockchain.
+  github: https://github.com/OpenCerts
+  link: https://opencerts.io
+  description:
+    - My first project at Govtech Singapore as part of the Distributed Ledger Team. OpenCerts is an open-source platform, built using the OpenAttestation standard, for issuing and validating tamper-resistant digital academic certificates.
+    - My initial task was to maintain code of the online website to ensure mobile and cross-platform responsiveness. I also helped to write documentation for the OpenCerts procedure and implement unit and integration tests for the online website.
+    - Near the end of my internship, I worked on a decentralized document renderer. This renderer is a static website that will take in the OpenCerts document in the unwrapped form and generates its corresponding HTML code for rendering.
+  image: opencerts.png
+  date: 2019
+  skills: [CSS3, JavaScript, HTML5, React, Redux]
+
+- modal: Modal-2
+  id: Modal-2
+  label: Modal-label-2
+  name: SGWorkPass
+  summary: A beta-version mobile app to check the validity of work passes / long term passes issued by the Singapore Ministry of Manpower (MOM).
+  github:
+  link: https://www.mom.gov.sg/eservices/sgworkpass
+  description:
+    - I worked with a small team of engineers and designers to create a beta product of SGWorkPass using smart contracts on the Ethereum blockchain to store cryptographic proofs of individual documents.
+    - At the end of the project, we created a working mobile application that could store a work pass and instantly verify any work pass' validity by scanning its QR code. We also created a Telegram chat bot to act as a server-side interface.
+  image: workpass.png
+  date: 2019
+  skills: [AWS, Expo, React Native, TypeScript]
+
+- modal: Modal-3
+  id: Modal-3
+  label: Modal-label-3
+  name: Minibot
+  summary: A React-based web application that allows users to run simple algorithms on their minibot, control their minibot and send custom scripts.
+  github: https://github.com/cornell-cup/cs-reminibot
+  link:
+  description:
+    - Minibot is a modular robotics kit meant for children and students from age 6 - 18, developed in partnership with Cornell Cup Robotics and DaVinci Robotics.
+    - I contributed extensively to the React frontend and Blockly interface of the web app that allows users to save and send custom scripts for their Minibots.
+  image: minibot.png
+  date: 2019 - 2020
+  skills: [JavaScript, React, Python]
+
+- modal: Modal-7
+  id: Modal-7
+  label: Modal-label-7
+  name: COVID-19 SG Cluster Map
+  summary: Web-app that displays the different clusters of COVID-19 in Singapore using Mapbox.
+  link: https://samuellye98.github.io/covid19SGMapClient/
+  github: https://github.com/samuellye98/covid19SGMapClient
+  description:
+    - I embarked on this project because there were no maps detailing where COVID-19 cases were detected in Singapore. I wanted Singaporeans to be able to easily visualize where the clusters were in order to take precautionary measures.
+    - I built this web application using React, Node.js, and Mapbox. I also had to use the Node.js library, Cheerio, to conduct web scraping for the information on COVID-19 cases in Singapore. Finally, I used Github Pages to host the frontend of the application and the API using Heroku.
+  image: covid19sg.png
+  date: 2020
+  skills: [Cheerio, Heroku, Javascript, Mapbox, Node.js, React]
+
+- modal: Modal-4
+  id: Modal-4
+  label: Modal-label-4
+  name: Cornell Secret Santa
+  summary: A React web-app to match Cornell students for a Secret Santa gift exchange.
+  github:
+  link: https://cornell-secret-santa.web.app/
+  description:
+    - At Cornell, academic, professional and social pressures can suddenly become overwhelming and exhausting.
+    - We wanted to create a Christmas event that would bring the community together to destress before finals and allow students to meet new people and make new friends through a campus-wide Secret Santa.
+    - In 2 weeks, I collaborated with a group of 6 students to build a React web app and a matching algorithm in Python. Our event ended up attracting around 100 participants.
+  image: secretsanta.png
+  date: 2019
+  skills: [CSS3, HTML5, React, Python]
+
+- modal: Modal-5
+  id: Modal-5
+  label: Modal-label-5
+  name: Cornell Cup Robotics Website
+  summary: Re-designed and developed a website for the Cornell Cup Robotics Team at Cornell University.
+  github: https://github.com/cornell-cup/cornell-cup.github.io
+  link: https://cornellcuprobotics.com/index.html
+  description:
+    - I built a new website for my project team - Cornell Cup Robotics Team - at Cornell University, primarily using HTML, CSS, JavaScript, and Jekyll.
+  image: ccup.png
+  date: 2019 - 2020
+  skills: [CSS3, HTML5, Javascript, Jekyll]
+
+- modal: Modal-6
+  id: Modal-6
+  label: Modal-label-6
+  name: Corsell
+  summary: Hackathon project created at BigRed//Hacks (2018) to bring a student e-commerce platform to Cornell University
+  github: https://github.com/samuellye98/corsell-app
+  link:
+  description:
+    - The initial version of Corsell was a web app created during BigRed//Hacks (2018) using Flask, Jinja, Node.js, and PostgreSQL.
+    - The current work in progress version is developed using Expo, Firebase, and React Native. Features such as logging in/out, and uploading item descriptions and photos are available. Search and chat feature to be implemented in the future.
+  image: corsell.png
+  date: 2018 - 2019
+  skills: [Expo, Firebase, Javascript, React Native, Redux]

@@ -1,0 +1,92 @@
+<section
+  id="projects"
+  style="display: block; margin-bottom: 50px;"
+  class="section-container"
+  data-aos="fade-up"
+  data-aos-easing="ease-in-sine"
+  data-aos-once="true"
+  data-aos-delay="100"
+>
+  <div class="header">
+    <div>
+      <div class="header-text">My Projects</div>
+      <div class="underline"></div>
+    </div>
+  </div>
+
+  <div class="projects" style="margin-top: 1em;">
+    {% for m in site.data.projects %}
+
+    <div class="proj-item" data-toggle="modal" data-target="#{{ m.modal }}">
+      <div class="proj-header">
+        <div class="proj-header-icons">
+          <div class="proj-folder">
+            <i class="icon-file-code-o"></i>
+          </div>
+          <div style="display: flex; flex-direction: row;">
+            {% if m.github %}
+            <div class="proj-git">
+              <a
+                style="text-decoration: none;"
+                target="_blank"
+                href="{{m.github}}"
+              >
+                <i class="icon-github"></i>
+              </a>
+            </div>
+            {% endif %} {% if m.link %}
+            <div class="proj-website">
+              <a
+                style="text-decoration: none;"
+                target="_blank"
+                href="{{m.link}}"
+              >
+                <i class="icon-external-link"></i>
+              </a>
+            </div>
+            {% endif %}
+          </div>
+        </div>
+        <h2>{{ m.name }}</h2>
+        <p>
+          {{m.summary}}
+        </p>
+      </div>
+      <div class="proj-skills">
+        {% for skill in m.skills %}
+        <h1>{{skill}}</h1>
+        {% endfor %}
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+<!-- Bootstrap Modal for projects-->
+{% for m in site.data.projects %}
+<div class="modal fade" id="{{ m.id }}" tabindex="-1" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content" style="background-color: #ececec;">
+      <div class="modal-header">
+        <a class="modal-title" href="{{m.link}}" target="_blank">{{m.name}}</a>
+        <button
+          type="button"
+          class="close"
+          data-dismiss="modal"
+          aria-label="Close"
+        >
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body justify-text">
+        <img src="static/images/{{ m.image }}" alt="Modal Image" />
+        <div class="modal-works">
+          <span>{{ m.date }}</span>
+        </div>
+        {% for desc in m.description %}
+        <p>{{ desc }}</p>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
+{% endfor %}

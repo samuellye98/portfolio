@@ -1,0 +1,40 @@
+<section
+  id="skills"
+  class="section-container"
+  data-aos="fade-up"
+  data-aos-easing="ease-in-sine"
+  data-aos-once="true"
+  data-aos-delay="100"
+>
+  <div class="header">
+    <div>
+      <div class="header-text">Skills</div>
+      <div class="underline"></div>
+    </div>
+  </div>
+
+  <div class="flex-container">
+    <div id="skills-filter">
+      <ul>
+        <li class="active" id="all" onclick="filterSelection('all')">all</li>
+        <li class="" id="high" onclick="filterSelection('high')">
+          rocking at
+        </li>
+        <li class="" id="medium" onclick="filterSelection('medium')">
+          learnt
+        </li>
+        <li class="" id="low" onclick="filterSelection('low')">
+          played with
+        </li>
+      </ul>
+    </div>
+    <div id="icon-list">
+      {% for skill in site.data.skills %}
+      <div class="icon {{skill.proficiency}}">
+        <i class="{{skill.icon}}"></i>
+        <h2>{{skill.name}}</h2>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>

@@ -1,0 +1,199 @@
+@font-face {
+  font-family: 'icomoon';
+  src: url('../fonts/icomoon.eot?wz5t3u');
+  src: url('../fonts/icomoon.eot?wz5t3u#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?wz5t3u') format('truetype'),
+    url('../fonts/icomoon.woff?wz5t3u') format('woff'),
+    url('../fonts/icomoon.svg?wz5t3u#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^='icon-'],
+[class*=' icon-'] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-th-menu-outline:before {
+  content: '\e935';
+}
+.icon-th-menu:before {
+  content: '\e936';
+}
+.icon-menu:before {
+  content: '\e934';
+}
+.icon-external-link:before {
+  content: '\e933';
+}
+.icon-chevron-thin-up:before {
+  content: '\e932';
+}
+.icon-chevron-thin-down:before {
+  content: '\e92f';
+}
+.icon-arrow-thin-down:before {
+  content: '\e931';
+}
+.icon-folder:before {
+  content: '\e92a';
+}
+.icon-file-code-o:before {
+  content: '\e902';
+}
+.icon-terminal:before {
+  content: '\e920';
+}
+.icon-algolia:before {
+  content: '\e922';
+}
+.icon-amazon:before {
+  content: '\e90b';
+}
+.icon-amazonalexa:before {
+  content: '\e90e';
+}
+.icon-amazonaws:before {
+  content: '\e90f';
+}
+.icon-anaconda:before {
+  content: '\e900';
+}
+.icon-css3:before {
+  content: '\e903';
+}
+.icon-expo:before {
+  content: '\e923';
+}
+.icon-facebook:before {
+  content: '\e910';
+}
+.icon-firebase:before {
+  content: '\e921';
+}
+.icon-flask:before {
+  content: '\e911';
+}
+.icon-git:before {
+  content: '\e904';
+}
+.icon-github:before {
+  content: '\e905';
+}
+.icon-gmail:before {
+  content: '\e924';
+}
+.icon-html5:before {
+  content: '\e906';
+}
+.icon-instagram:before {
+  content: '\e912';
+}
+.icon-java:before {
+  content: '\e907';
+}
+.icon-javascript:before {
+  content: '\e908';
+}
+.icon-jinja:before {
+  content: '\e913';
+}
+.icon-jupyter:before {
+  content: '\e909';
+}
+.icon-linkedin:before {
+  content: '\e914';
+}
+.icon-mastercard:before {
+  content: '\e925';
+}
+.icon-messenger:before {
+  content: '\e926';
+}
+.icon-nintendoswitch:before {
+  content: '\e915';
+}
+.icon-notion:before {
+  content: '\e916';
+}
+.icon-ocaml:before {
+  content: '\e917';
+}
+.icon-php:before {
+  content: '\e927';
+}
+.icon-postgresql:before {
+  content: '\e918';
+}
+.icon-postman:before {
+  content: '\e928';
+}
+.icon-python:before {
+  content: '\e90a';
+}
+.icon-react:before {
+  content: '\e91d';
+}
+.icon-reddit:before {
+  content: '\e929';
+}
+.icon-snapchat:before {
+  content: '\e92b';
+}
+.icon-spotify:before {
+  content: '\e919';
+}
+.icon-steam:before {
+  content: '\e91e';
+}
+.icon-tesla:before {
+  content: '\e92c';
+}
+.icon-typescript:before {
+  content: '\e91f';
+}
+.icon-venmo:before {
+  content: '\e91a';
+}
+.icon-visa:before {
+  content: '\e92d';
+}
+.icon-visualstudiocode:before {
+  content: '\e90c';
+}
+.icon-xbox:before {
+  content: '\e91b';
+}
+.icon-youtube:before {
+  content: '\e91c';
+}
+.icon-zoom:before {
+  content: '\e92e';
+}
+.icon-redux:before {
+  content: '\e90d';
+}
+.icon-jekyll1:before {
+  content: '\e901';
+}
+.icon-folder-open:before {
+  content: '\e930';
+}
+.icon-stats-dots:before {
+  content: '\e99b';
+}
+.icon-embed2:before {
+  content: '\ea80';
+}
