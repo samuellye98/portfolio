@@ -1,4 +1,19 @@
 ---
+- modal: Modal-7
+  id: Modal-7
+  label: Modal-label-7
+  name: A.L.I.C.E.
+  summary: Analyzing Language Interface Created for Everyone (A.L.I.C.E.) is a visualization dashboard for text documents using state of the art natural langugae processing models.
+  github: https://github.com/luketankw/ALICE
+  link: http://frontend-alice.apps.8d5714affbde4fa6828a.southeastasia.azmosa.io/upload
+  description:
+    - Automatic text summarization methods are greatly needed to address the ever-growing amount of text data available online to both better help discover relevant information and to consume relevant information faster.
+    - Analyzing Language Interface Created for Everyone (A.L.I.C.E.) is purposed to summarize text documents and output informative visualization displays that quickly and easily communicate the contents of the text to the user.
+    - The key components of A.L.I.C.E. are the Frontend (React, D3), Backend (Flask, Machine Learning models), as well as DevOps (Docker, Openshift).
+  image: alice.png
+  date: 2020
+  skills: [React, Flask, Docker, Openshift, Tensorflow, Keras]
+
 - modal: Modal-1
   id: Modal-1
   label: Modal-label-1

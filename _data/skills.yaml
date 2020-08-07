@@ -4,10 +4,10 @@
   proficiency: high
 - name: Redux
   icon: icon-redux
-  proficiency: medium
+  proficiency: high
 - name: Flask
   icon: icon-flask
-  proficiency: low
+  proficiency: medium
 - name: Jinja
   icon: icon-jinja
   proficiency: low
@@ -28,7 +28,7 @@
   proficiency: medium
 - name: OCaml
   icon: icon-ocaml
-  proficiency: high
+  proficiency: medium
 - name: Javascript
   icon: icon-javascript
   proficiency: low
@@ -56,3 +56,15 @@
 - name: PostgreSQL
   icon: icon-postgresql
   proficiency: low
+- name: Tensorflow
+  icon: icon-tensorflow
+  proficiency: low
+- name: Keras
+  icon: icon-keras
+  proficiency: low
+- name: Docker
+  icon: icon-docker
+  proficiency: medium
+- name: Openshift RedHat
+  icon: icon-redhat
+  proficiency: medium

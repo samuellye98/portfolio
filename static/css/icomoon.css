@@ -74,6 +74,9 @@
 .icon-css3:before {
   content: '\e903';
 }
+.icon-docker:before {
+  content: '\e937';
+}
 .icon-expo:before {
   content: '\e923';
 }
@@ -113,6 +116,9 @@
 .icon-jupyter:before {
   content: '\e909';
 }
+.icon-keras:before {
+  content: '\e938';
+}
 .icon-linkedin:before {
   content: '\e914';
 }
@@ -149,6 +155,9 @@
 .icon-reddit:before {
   content: '\e929';
 }
+.icon-redhat:before {
+  content: '\e939';
+}
 .icon-snapchat:before {
   content: '\e92b';
 }
@@ -158,8 +167,14 @@
 .icon-steam:before {
   content: '\e91e';
 }
+.icon-tensorflow:before {
+  content: '\e93a';
+}
 .icon-tesla:before {
   content: '\e92c';
+}
+.icon-todoist:before {
+  content: '\e93b';
 }
 .icon-typescript:before {
   content: '\e91f';
@@ -193,6 +208,9 @@
 }
 .icon-stats-dots:before {
   content: '\e99b';
+}
+.icon-circle-down:before {
+  content: '\ea43';
 }
 .icon-embed2:before {
   content: '\ea80';
