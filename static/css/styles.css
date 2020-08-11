@@ -211,6 +211,8 @@ body {
 
 .resume-btn {
   border: 1px solid #253069;
+  background-color: #008cff;
+  color: white !important;
   height: 50px;
   text-align: center;
   width: 250px;
@@ -222,7 +224,7 @@ body {
 .resume-btn:hover {
   color: white !important;
   text-decoration: none;
-  background-color: #33438f;
+  /* background-color: #33438f; */
 }
 
 /************************* SIDEBAR STYLES *************************/
@@ -570,10 +572,24 @@ body {
   color: #253069;
   font-size: 12px;
   font-weight: 300;
+  margin-bottom: 0;
+  margin-right: 15px;
 }
 
 .experience-container ul {
   list-style: none;
+}
+
+.experience-container .location-data-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.location-data-container i {
+  color: #253069;
+  font-size: 12px;
+  margin-right: 5px;
 }
 
 .experience-desc {

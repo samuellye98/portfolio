@@ -9,7 +9,7 @@
 >
   <div class="header">
     <div>
-      <div class="header-text">My Projects</div>
+      <div class="header-text">Projects</div>
       <div class="underline"></div>
     </div>
   </div>
@@ -53,7 +53,8 @@
         </p>
       </div>
       <div class="proj-skills">
-        {% for skill in m.skills %}
+        {% assign sortedSkills = m.skills | sort %} {% for skill in sortedSkills
+        %}
         <h1>{{skill}}</h1>
         {% endfor %}
       </div>
@@ -67,7 +68,12 @@
   <div class="modal-dialog" role="document">
     <div class="modal-content" style="background-color: #ececec;">
       <div class="modal-header">
-        <a class="modal-title" href="{{m.link}}" target="_blank">{{m.name}}</a>
+        {% if m.link %}
+        <a class="modal-title" href="{{m.link}}" target="_blank">{{m.name}}</a
+        >{% else %}
+        <h1 class="modal-title">{{m.name}}</h1>
+        {% endif %}
+
         <button
           type="button"
           class="close"

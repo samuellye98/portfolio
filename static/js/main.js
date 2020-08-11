@@ -35,8 +35,8 @@ function filterNotAll(proficiency, color) {
 function filterSelection(c) {
   var map = {
     all: '#3c4f76',
-    high: '#8c00ff',
-    medium: '#F6511D',
+    high: '#008cff',
+    medium: '#b41717;',
     low: '#fcba04',
   };
   if (c == 'all') {

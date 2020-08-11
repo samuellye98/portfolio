@@ -29,7 +29,8 @@
       </ul>
     </div>
     <div id="icon-list">
-      {% for skill in site.data.skills %}
+      {% assign sortedSkills = site.data.skills | sort: 'name' %} {% for skill
+      in sortedSkills %}
       <div class="icon {{skill.proficiency}}">
         <i class="{{skill.icon}}"></i>
         <h2>{{skill.name}}</h2>

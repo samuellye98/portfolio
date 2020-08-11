@@ -53,6 +53,9 @@
 - name: Firebase
   icon: icon-firebase
   proficiency: low
+- name: MongoDB
+  icon: icon-mongodb
+  proficiency: medium
 - name: PostgreSQL
   icon: icon-postgresql
   proficiency: low
