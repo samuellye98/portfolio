@@ -104,7 +104,7 @@
   label: Modal-label-6
   name: Corsell
   summary: Hackathon project created at BigRed//Hacks (2018) to bring a student e-commerce platform to Cornell University
-  github: https://github.com/samuellye98/corsell-app
+  github: https://github.com/samuellye98/corsell
   link:
   description:
     - The initial version of Corsell was a web app created during BigRed//Hacks (2018) using Flask, Jinja, Node.js, and PostgreSQL.
