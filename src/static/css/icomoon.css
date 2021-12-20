@@ -1,0 +1,336 @@
+@font-face {
+  font-family: 'icomoon';
+  src: url('../fonts/icomoon.eot?wz5t3u');
+  src: url('../fonts/icomoon.eot?wz5t3u#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?wz5t3u') format('truetype'),
+    url('../fonts/icomoon.woff?wz5t3u') format('woff'),
+    url('../fonts/icomoon.svg?wz5t3u#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^='icon-'],
+[class*=' icon-'] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-business_center:before {
+  content: '\e94e';
+}
+.icon-close:before {
+  content: '\e94d';
+}
+.icon-algolia:before {
+  content: '\e900';
+  color: #5468ff;
+}
+.icon-amazon:before {
+  content: '\e901';
+  color: #f90;
+}
+.icon-amazonalexa:before {
+  content: '\e902';
+  color: #00caff;
+}
+.icon-amazonaws:before {
+  content: '\e903';
+  color: #ff9900;
+}
+.icon-anaconda:before {
+  content: '\e904';
+  color: #42b029;
+}
+.icon-cplusplus:before {
+  content: '\e905';
+  color: #00599c;
+}
+.icon-csharp:before {
+  content: '\e906';
+  color: #239120;
+}
+.icon-css3:before {
+  content: '\e907';
+  color: #1572b6;
+}
+.icon-csswizardry:before {
+  content: '\e908';
+  color: #f43059;
+}
+.icon-dart:before {
+  content: '\e909';
+  color: #0175c2;
+}
+.icon-digitalocean:before {
+  content: '\e90a';
+  color: #0080ff;
+}
+.icon-docker:before {
+  content: '\e90b';
+  color: #1488c6;
+}
+.icon-expo:before {
+  content: '\e90c';
+}
+.icon-facebook:before {
+  content: '\e90d';
+  color: #1877f2;
+}
+.icon-figma:before {
+  content: '\e90e';
+  color: #f24e1e;
+}
+.icon-firebase:before {
+  content: '\e90f';
+  color: #ffca28;
+}
+.icon-flask:before {
+  content: '\e910';
+}
+.icon-flutter:before {
+  content: '\e911';
+  color: #02569b;
+}
+.icon-git:before {
+  content: '\e912';
+  color: #f05032;
+}
+.icon-github:before {
+  content: '\e913';
+}
+.icon-gmail:before {
+  content: '\e914';
+  color: #d14836;
+}
+.icon-haskell:before {
+  content: '\e915';
+  color: #5d4f85;
+}
+.icon-html5:before {
+  content: '\e916';
+  color: #e34f26;
+}
+.icon-instagram:before {
+  content: '\e917';
+  color: #e4405f;
+}
+.icon-java:before {
+  content: '\e918';
+  color: #007396;
+}
+.icon-javascript:before {
+  content: '\e919';
+  color: #f7df1e;
+}
+.icon-jekyll:before {
+  content: '\e91a';
+  color: #c00;
+}
+.icon-jinja:before {
+  content: '\e91b';
+  color: #b41717;
+}
+.icon-jupyter:before {
+  content: '\e91c';
+  color: #f37626;
+}
+.icon-keras:before {
+  content: '\e91d';
+  color: #d00000;
+}
+.icon-linkedin:before {
+  content: '\e91e';
+  color: #0077b5;
+}
+.icon-messenger:before {
+  content: '\e91f';
+  color: #00b2ff;
+}
+.icon-mongodb:before {
+  content: '\e920';
+  color: #47a248;
+}
+.icon-mysql:before {
+  content: '\e921';
+  color: #4479a1;
+}
+.icon-node-dot-js:before {
+  content: '\e922';
+  color: #393;
+}
+.icon-notion:before {
+  content: '\e923';
+}
+.icon-ocaml:before {
+  content: '\e924';
+  color: #ec6813;
+}
+.icon-php:before {
+  content: '\e925';
+  color: #777bb4;
+}
+.icon-postgresql:before {
+  content: '\e926';
+  color: #336791;
+}
+.icon-postman:before {
+  content: '\e927';
+  color: #ff6c37;
+}
+.icon-python:before {
+  content: '\e928';
+  color: #3776ab;
+}
+.icon-rails:before {
+  content: '\e929';
+  color: #c00;
+}
+.icon-react:before {
+  content: '\e92a';
+  color: #61dafb;
+}
+.icon-reddit:before {
+  content: '\e92b';
+  color: #ff4500;
+}
+.icon-redhat:before {
+  content: '\e92c';
+  color: #e00;
+}
+.icon-redux:before {
+  content: '\e92d';
+  color: #764abc;
+}
+.icon-sass:before {
+  content: '\e92e';
+  color: #c69;
+}
+.icon-shopify:before {
+  content: '\e92f';
+  color: #7ab55c;
+}
+.icon-snapchat:before {
+  content: '\e930';
+  color: #fffc00;
+}
+.icon-spotify:before {
+  content: '\e931';
+  color: #1ed760;
+}
+.icon-steam:before {
+  content: '\e932';
+}
+.icon-stripe:before {
+  content: '\e933';
+  color: #008cdd;
+}
+.icon-swift:before {
+  content: '\e934';
+  color: #fa7343;
+}
+.icon-tensorflow:before {
+  content: '\e935';
+  color: #ff6f00;
+}
+.icon-tesla:before {
+  content: '\e936';
+  color: #c00;
+}
+.icon-todoist:before {
+  content: '\e937';
+  color: #e44332;
+}
+.icon-typescript:before {
+  content: '\e938';
+  color: #007acc;
+}
+.icon-venmo:before {
+  content: '\e939';
+  color: #3d95ce;
+}
+.icon-visualstudio:before {
+  content: '\e93a';
+  color: #5c2d91;
+}
+.icon-visualstudiocode:before {
+  content: '\e93b';
+  color: #007acc;
+}
+.icon-vsco:before {
+  content: '\e93c';
+}
+.icon-xbox:before {
+  content: '\e93d';
+  color: #107c10;
+}
+.icon-yahoo:before {
+  content: '\e93e';
+  color: #6001d2;
+}
+.icon-youtube:before {
+  content: '\e93f';
+  color: #f00;
+}
+.icon-zoom:before {
+  content: '\e940';
+  color: #2d8cff;
+}
+.icon-terminal:before {
+  content: '\e941';
+}
+.icon-folder:before {
+  content: '\e942';
+}
+.icon-chevron-thin-down:before {
+  content: '\e943';
+}
+.icon-folder-open:before {
+  content: '\e944';
+}
+.icon-arrow-thin-down:before {
+  content: '\e945';
+}
+.icon-chevron-thin-up:before {
+  content: '\e946';
+}
+.icon-external-link:before {
+  content: '\e947';
+}
+.icon-menu:before {
+  content: '\e948';
+}
+.icon-th-menu-outline:before {
+  content: '\e949';
+}
+.icon-th-menu:before {
+  content: '\e94a';
+}
+.icon-mongodb1:before {
+  content: '\e94b';
+}
+.icon-location:before {
+  content: '\e94c';
+}
+.icon-calendar:before {
+  content: '\e953';
+}
+.icon-stats-dots:before {
+  content: '\e99b';
+}
+.icon-circle-down:before {
+  content: '\ea43';
+}
+.icon-embed2:before {
+  content: '\ea80';
+}

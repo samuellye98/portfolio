@@ -1,0 +1,122 @@
+[
+  {
+    "name": "React",
+    "icon": "icon-react",
+    "proficiency": "high"
+  },
+  {
+    "name": "Redux",
+    "icon": "icon-redux",
+    "proficiency": "high"
+  },
+  {
+    "name": "Flask",
+    "icon": "icon-flask",
+    "proficiency": "medium"
+  },
+  {
+    "name": "Jinja",
+    "icon": "icon-jinja",
+    "proficiency": "low"
+  },
+  {
+    "name": "Jekyll",
+    "icon": "icon-jekyll",
+    "proficiency": "medium"
+  },
+  {
+    "name": "HTML5",
+    "icon": "icon-html5",
+    "proficiency": "high"
+  },
+  {
+    "name": "CSS3",
+    "icon": "icon-css3",
+    "proficiency": "medium"
+  },
+  {
+    "name": "Python",
+    "icon": "icon-python",
+    "proficiency": "high"
+  },
+  {
+    "name": "Java",
+    "icon": "icon-java",
+    "proficiency": "medium"
+  },
+  {
+    "name": "OCaml",
+    "icon": "icon-ocaml",
+    "proficiency": "medium"
+  },
+  {
+    "name": "Node",
+    "icon": "icon-node-dot-js",
+    "proficiency": "medium"
+  },
+  {
+    "name": "Javascript",
+    "icon": "icon-javascript",
+    "proficiency": "high"
+  },
+  {
+    "name": "Typescript",
+    "icon": "icon-typescript",
+    "proficiency": "medium"
+  },
+  {
+    "name": "Stata",
+    "icon": "icon-stats-dots",
+    "proficiency": "medium"
+  },
+  {
+    "name": "AWS",
+    "icon": "icon-amazonaws",
+    "proficiency": "low"
+  },
+  {
+    "name": "Expo",
+    "icon": "icon-expo",
+    "proficiency": "medium"
+  },
+  {
+    "name": "Firebase",
+    "icon": "icon-firebase",
+    "proficiency": "low"
+  },
+  {
+    "name": "MongoDB",
+    "icon": "icon-mongodb",
+    "proficiency": "medium"
+  },
+  {
+    "name": "PostgreSQL",
+    "icon": "icon-postgresql",
+    "proficiency": "medium"
+  },
+  {
+    "name": "Tensorflow",
+    "icon": "icon-tensorflow",
+    "proficiency": "low"
+  },
+  {
+    "name": "Keras",
+    "icon": "icon-keras",
+    "proficiency": "low"
+  },
+  {
+    "name": "Docker",
+    "icon": "icon-docker",
+    "proficiency": "medium"
+  },
+  {
+    "name": "Openshift",
+    "icon": "icon-redhat",
+    "proficiency": "medium"
+  },
+  {
+    "name": "C++",
+    "icon": "icon-cplusplus",
+    "proficiency": "medium"
+  }
+]

@@ -1,0 +1,158 @@
+/************************* MODAL STYLES *************************/
+
+.modal-container {
+  display: table;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  transform: scale(1);
+}
+
+.modal-container.no-modal {
+  display: none;
+}
+
+.modal-container.no-modal .modal {
+  animation: blowUpModalTwo 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
+}
+
+.modal-background {
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.modal-content {
+  animation: blowUpModal 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
+  background: #e5e5e5;
+  padding: 50px;
+  display: inline-block;
+  border-radius: 3px;
+  width: 80vw;
+  margin: 100px 0px;
+  width: 80vw;
+  position: relative;
+  cursor: default;
+}
+
+body.modal-active {
+  /* disable scroll when modal is active */
+  overflow: hidden;
+}
+
+body.modal-active #content {
+  animation: blowUpContent 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
+}
+
+#content {
+  animation: blowUpContentTwo 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
+}
+
+@keyframes blowUpContent {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  99.9% {
+    transform: scale(2);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(0);
+  }
+}
+
+@keyframes blowUpContentTwo {
+  0% {
+    transform: scale(2);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes blowUpModal {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes blowUpModalTwo {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(0);
+    opacity: 0;
+  }
+}
+
+.modal-title {
+  text-transform: uppercase;
+  color: #172a45;
+}
+
+.modal-body {
+  text-align: justify;
+}
+
+.modal-body img {
+  width: 100%;
+}
+
+.modal-date {
+  letter-spacing: 1px;
+  margin-top: 15px;
+}
+
+.modal-date span {
+  color: #fff;
+  background-color: #172a45;
+  margin-right: 15px;
+  padding: 5px 10px;
+}
+
+.modal-body p {
+  margin-top: 20px;
+}
+
+.modal-close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+  color: grey;
+  transition: color 0.5s ease;
+}
+
+.modal-close:hover {
+  color: #000;
+}
+
+.modal-skills {
+  margin-top: 50px;
+}
+
+.modal-skills h3 {
+  color: grey;
+}
+
+.modal-skills .icon-grid {
+  padding-top: 5px;
+  justify-content: flex-start;
+}
+
+.modal-skills .icon-grid .icon-container {
+  width: 75px;
+}

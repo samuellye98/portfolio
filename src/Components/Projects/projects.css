@@ -1,0 +1,113 @@
+/************************* PROJECT STYLES *************************/
+
+.projects {
+  display: grid;
+  margin: 0 auto;
+  grid-gap: 15px;
+  color: #a8b2d1;
+}
+
+.projects a:hover {
+  text-decoration: none;
+}
+
+@media (max-width: 630px) {
+  .projects {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .proj-item {
+    height: 18rem;
+  }
+}
+
+@media (min-width: 631px) and (max-width: 1150px) {
+  .projects {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .proj-item {
+    height: 22rem;
+  }
+}
+
+@media (min-width: 1151px) {
+  .projects {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .proj-item {
+    height: 22rem;
+  }
+}
+
+.proj-item {
+  display: flex;
+  flex-direction: column;
+  border-radius: 3px;
+  position: relative;
+  cursor: pointer;
+  background-color: #172a45;
+  padding: 2rem 1.75rem;
+  -webkit-box-pack: justify;
+  -webkit-box-align: center;
+  box-shadow: rgba(2, 12, 27, 0.7) 0px 10px 30px -15px;
+  transition: all 0.3s ease-in-out;
+}
+
+.proj-item:hover {
+  box-shadow: rgba(0, 0, 0, 0.22) 0px 19px 43px;
+  transform: translate3d(0px, -5px, 0px);
+}
+
+.proj-item a:hover {
+  text-decoration: none;
+}
+
+.proj-header,
+.proj-skills {
+  pointer-events: none;
+}
+
+.proj-header-icons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: auto;
+}
+
+.proj-git > a > i {
+  font-size: 25px;
+  color: #a8b2d1;
+}
+
+.proj-git > a > i:hover {
+  color: #06aed5;
+}
+
+.proj-website > a > i {
+  margin-left: 10px;
+  font-size: 25px;
+  color: #a8b2d1;
+}
+
+.proj-website > a > i:hover {
+  color: #06aed5;
+}
+
+.proj-title {
+  margin-top: 15px;
+  color: white;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.proj-skills {
+  display: flex;
+  flex-wrap: wrap;
+  position: absolute;
+  right: 15px;
+  bottom: 20px;
+  margin-left: 20px;
+}
+
+.proj-skills span {
+  margin: 0px 5px;
+}

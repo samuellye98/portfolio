@@ -1,0 +1,161 @@
+/************************* INTRO STYLES *************************/
+
+.about-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100%;
+  z-index: 2;
+}
+
+.about-container h3 {
+  background: -webkit-linear-gradient(#fcba04, #009ffd);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.typewriter {
+  width: 100%;
+  font-weight: 700;
+  text-align: left;
+  -ms-word-break: break-word;
+  word-break: break-word;
+
+  /* Non standard for webkit */
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+}
+
+.typewriter span {
+  letter-spacing: 0.08rem;
+}
+
+.typewriter-text > span {
+  color: #fcba04;
+  border-right: 0.15em solid lightgrey; /* The typwriter cursor */
+  /* margin: 0 auto; Gives that scrolling effect as the typing happens */
+}
+
+.typewriter-text.blink > span {
+  animation: blink-caret 1s step-end infinite;
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: lightgrey;
+  }
+}
+
+.about-text {
+  text-align: justify;
+  padding-bottom: 30px;
+  font-weight: 500;
+}
+
+.stripe-text-underline {
+  text-decoration: none;
+  cursor: pointer;
+  background: -webkit-linear-gradient(#5433ff, #1cc6ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.stripe-text-underline:hover {
+  background: -webkit-linear-gradient(#4379ff, #f6a4ec);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.stripe-text-underline:visited {
+  color: inherit;
+}
+
+.about-links ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  padding: 0;
+}
+
+.about-links ul li {
+  padding: 0px 10px;
+  cursor: pointer;
+}
+
+.about-links ul li:nth-child(1) {
+  padding-left: 0px;
+}
+
+.about-links ul li a {
+  display: inline-block;
+  position: relative;
+  color: inherit;
+  text-decoration: none;
+}
+
+.about-links ul li a:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #fcba04;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.about-links ul li a:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.resume-button {
+  border: 1px solid #009ffd;
+  background-color: transparent;
+  width: 50%;
+  height: 50px;
+  margin-bottom: 50px;
+
+  /* "left to right" */
+  background: linear-gradient(to left, transparent 50%, #21295c 50%) right;
+  background-size: 200%;
+  transition: all 0.5s ease-out;
+}
+
+@media screen and (min-width: 769px) {
+  .resume-button {
+    width: 35%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .resume-button {
+    width: 25%;
+  }
+}
+
+.resume-button:hover {
+  background-position: left;
+}
+
+.resume-button a {
+  text-decoration: none;
+  color: black;
+  transition: 0.5s ease-out;
+}
+
+.resume-button:hover a {
+  color: white;
+}
