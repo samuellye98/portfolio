@@ -74,7 +74,7 @@ const Skills = () => {
             return (
               <div key={e.name} className={`icon-container ${e.proficiency}`}>
                 <i className={`icon ${e.icon}`}></i>
-                <span className="xs">{e.name}</span>
+                <span className="sm">{e.name}</span>
               </div>
             );
           })}

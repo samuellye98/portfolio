@@ -96,7 +96,7 @@ const Experience = () => {
                 {experienceData[activeIdx].skills.map((s) => (
                   <div key={s} className="icon-container">
                     <i className={`icon ${skillsMap[s]}`}></i>
-                    <span className="xs">{s}</span>
+                    <span className="sm">{s}</span>
                   </div>
                 ))}
               </div>
