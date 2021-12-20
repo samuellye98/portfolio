@@ -1,10 +1,10 @@
 self.__precacheManifest = [
   {
-    "revision": "b573d17733cb45252edc",
-    "url": "/portfolio/static/css/main.7a8647ad.chunk.css"
+    "revision": "6e674ff10425946d7e86",
+    "url": "/portfolio/static/css/main.28d328e5.chunk.css"
   },
   {
-    "revision": "b573d17733cb45252edc",
+    "revision": "6e674ff10425946d7e86",
     "url": "/portfolio/static/js/main.acaa008a.chunk.js"
   },
   {
@@ -28,12 +28,12 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/icomoon.75899192.eot"
   },
   {
-    "revision": "3409d201de73f21e3c4746e2942c273d",
-    "url": "/portfolio/static/media/icomoon.3409d201.woff"
-  },
-  {
     "revision": "e7f6454a7d076819823f30bd1bb64217",
     "url": "/portfolio/static/media/icomoon.e7f6454a.svg"
+  },
+  {
+    "revision": "3409d201de73f21e3c4746e2942c273d",
+    "url": "/portfolio/static/media/icomoon.3409d201.woff"
   },
   {
     "revision": "218ad3cea8c88284cd34b0e9e0fec052",
@@ -80,7 +80,7 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/corsell.536e2b2e.png"
   },
   {
-    "revision": "9aedda5c981e4ea1a48385b44f51ce73",
+    "revision": "5fd855f1ca9074f0f03a66a913c9a96d",
     "url": "/portfolio/index.html"
   }
 ];
