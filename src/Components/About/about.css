@@ -62,7 +62,7 @@
   font-weight: 500;
 }
 
-.stripe-text-underline {
+.current-job {
   text-decoration: none;
   cursor: pointer;
   background: -webkit-linear-gradient(#5433ff, #1cc6ff);
@@ -70,13 +70,13 @@
   -webkit-text-fill-color: transparent;
 }
 
-.stripe-text-underline:hover {
+.current-job:hover {
   background: -webkit-linear-gradient(#4379ff, #f6a4ec);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-.stripe-text-underline:visited {
+.current-job:visited {
   color: inherit;
 }
 

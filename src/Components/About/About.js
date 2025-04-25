@@ -102,12 +102,12 @@ const About = () => {
         <h2 className="lg about-text">
           Software engineer @{' '}
           <a
-            href="https://stripe.com/"
+            href="https://www.deshaw.com"
             target="_blank"
             rel="noopener noreferrer"
-            className="stripe-text-underline"
+            className="current-job"
           >
-            Stripe
+            The D. E. Shaw Group
           </a>
           .
         </h2>
