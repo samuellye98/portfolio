@@ -1,5 +1,19 @@
 export const projectData = [
   {
+    name: 'Corsells Website',
+    summary:
+      'E-commerce marketplace for the Cornell community to buy and sell secondhand or new goods and services.',
+    github: 'https://github.com/samuellye98/Corsells',
+    link: 'https://corsells-c891e.web.app/',
+    description: [
+      'Corsells is an e-commerce platform made by students, for students. We aim to create a trusted consumer-to-consumer marketplace for the Cornell community to buy and sell new or secondhand goods and services.',
+      'Unlike Facebook marketplace, Corsells only authorizes users with a valid @cornell.edu email and who are part of the Cornell community, thus adding a layer of trust and protection for the platform. Features such as search, filtering, and chat messaging provide a seamless experience for users to complete their transactions on a single platform, whether it be selling a good, providing a service, or renting out an apartment.',
+    ],
+    image: require('../../static/images/projects/corsells.png'),
+    date: '2021 - 2022',
+    skills: ['Firebase', 'Javascript', 'React', 'Express'],
+  },
+  {
     name: 'A.L.I.C.E.',
     summary:
       'Analyzing Language Interface Created for Everyone (A.L.I.C.E.) is a visualization dashboard for text documents using state of the art natural langugae processing models.',
@@ -108,10 +122,10 @@ export const projectData = [
     skills: ['CSS3', 'HTML5', 'Javascript', 'Node', 'Jekyll'],
   },
   {
-    name: 'Corsell',
+    name: 'Corsell App',
     summary:
       'Hackathon project created at BigRed//Hacks (2018) to bring a student e-commerce platform to Cornell University',
-    github: 'https://github.com/samuellye98/corsell',
+    github: 'https://github.com/samuellye98/corsell-app',
     link: null,
     description: [
       'The initial version of Corsell was a web app created during BigRed//Hacks (2018) using Flask, Jinja, Node.js, and PostgreSQL.',
