@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.96a91911.css",
+    "main.js": "/portfolio/static/js/main.411ed32e.js",
+    "static/js/453.526ccdc7.chunk.js": "/portfolio/static/js/453.526ccdc7.chunk.js",
+    "static/media/govtech.gif": "/portfolio/static/media/govtech.faa5c4fec0f08d058136.gif",
+    "static/media/corsells.png": "/portfolio/static/media/corsells.a2861d38a5e24b9c64b1.png",
+    "static/media/secretsanta.png": "/portfolio/static/media/secretsanta.c68e83e7394b8c8135c8.png",
+    "static/media/corsell.png": "/portfolio/static/media/corsell.95f5b5db765beeda9d6e.png",
+    "static/media/logo.png": "/portfolio/static/media/logo.c83c00459a80e1cd71c1.png",
+    "static/media/alice.png": "/portfolio/static/media/alice.6d46fa55f0469f8bb7b0.png",
+    "static/media/ccup.png": "/portfolio/static/media/ccup.a3885fdae83a7e4130b0.png",
+    "static/media/culambdas.jpg": "/portfolio/static/media/culambdas.6f4deb6648d76721c1e5.jpg",
+    "static/media/opencerts.png": "/portfolio/static/media/opencerts.75909f4de6f6f07e5b06.png",
+    "static/media/minibot.png": "/portfolio/static/media/minibot.4d137d2c5b9254816cce.png",
+    "static/media/workpass.png": "/portfolio/static/media/workpass.0663771602b9abc56430.png",
+    "static/media/icomoon.svg?wz5t3u": "/portfolio/static/media/icomoon.2ceae224efe999211c1b.svg",
+    "static/media/bloomberg.png": "/portfolio/static/media/bloomberg.a3f4c7cb925858edf436.png",
+    "static/media/icomoon.eot?wz5t3u": "/portfolio/static/media/icomoon.1a3dc1a2714b2a803afa.eot",
+    "static/media/icomoon.woff?wz5t3u": "/portfolio/static/media/icomoon.402b2601aab7f8b131ff.woff",
+    "static/media/icomoon.ttf?wz5t3u": "/portfolio/static/media/icomoon.82d671e0140ce12f1947.ttf",
+    "index.html": "/portfolio/index.html",
+    "main.96a91911.css.map": "/portfolio/static/css/main.96a91911.css.map",
+    "main.411ed32e.js.map": "/portfolio/static/js/main.411ed32e.js.map",
+    "453.526ccdc7.chunk.js.map": "/portfolio/static/js/453.526ccdc7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.96a91911.css",
+    "static/js/main.411ed32e.js"
+  ]
+}
